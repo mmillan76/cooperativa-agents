@@ -11,7 +11,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 /**
- * H0: pipeline de demostración con pasos triviales, para comprobar el cableado de punta a punta.
+ * H0: pipeline de demostración con pasos triviales, para comprobar el cableado
+ * de punta a punta.
  * Se sustituye por el pipeline real a partir de H1.
  */
 @Component

@@ -15,6 +15,12 @@
     <description>Aplicación Spring Boot: configuración, ensamblado del pipeline y punto de entrada.</description>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>io.github.mmillan76.cooperativa</groupId>
             <artifactId>adapters</artifactId>
