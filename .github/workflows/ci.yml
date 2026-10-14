@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: Compilar y pasar tests
+        run: mvn -B verify
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Comprobar que el dataset es reproducible
+        run: |
+          pip install -r tools/dataset/requirements.txt
+          python tools/dataset/generate_dataset.py --out /tmp/data
+          diff -r /tmp/data/expected data/expected

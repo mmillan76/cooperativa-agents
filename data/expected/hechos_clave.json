@@ -1,0 +1,33 @@
+{
+  "nota": "Calculado sobre datos limpios (venta duplicada eliminada). Los costes incluyen el pico de riego de P-07 porque es un gasto real a investigar, no un error de datos.",
+  "por_cultivo": {
+    "Patata temprana": {
+      "ingresos_T3_eur": 0,
+      "costes_T3_eur": 0,
+      "margen_bruto_T3_eur": 0
+    },
+    "Tomate industria": {
+      "ingresos_T3_eur": 164760.29,
+      "costes_T3_eur": 84793.87,
+      "margen_bruto_T3_eur": 79966.42
+    },
+    "Algodón": {
+      "ingresos_T3_eur": 30208.58,
+      "costes_T3_eur": 13414.99,
+      "margen_bruto_T3_eur": 16793.59
+    },
+    "Girasol": {
+      "ingresos_T3_eur": 15306.95,
+      "costes_T3_eur": 4186.36,
+      "margen_bruto_T3_eur": 11120.59
+    },
+    "Uva moscatel": {
+      "ingresos_T3_eur": 220542.05,
+      "costes_T3_eur": 39969.79,
+      "margen_bruto_T3_eur": 180572.26
+    }
+  },
+  "ayudas_pendientes_cobro_eur": 3877.99,
+  "precio_tomate_T2_eur_kg": 0.0907,
+  "precio_tomate_T3_ponderado_eur_kg": 0.0716
+}

@@ -1,0 +1,30 @@
+# Build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Credenciales: NUNCA versionar
+.env
+.env.*
+*.pem
+*.p12
+*-sa.json
+*service-account*.json
+credentials*.json
+application-local.yml
+application-secrets.yml
+
+# Datos generados (se regeneran con el script; data/expected sí se versiona)
+data/2026-T3/
+data/variantes/
+data/*.xlsx
+out/
+
+# Python
+__pycache__/
+.venv/

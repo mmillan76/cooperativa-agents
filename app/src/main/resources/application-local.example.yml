@@ -1,0 +1,8 @@
+# Copia este fichero como application-local.yml (ignorado por git) y arranca con
+#   SPRING_PROFILES_ACTIVE=local mvn -pl app spring-boot:run
+# Mejor aún: no pongas secretos en ficheros y usa variables de entorno.
+cooperativa:
+  drive:
+    input-folder-id: "<id de /cooperativa-demo/entrada/2026-T3>"
+    output-folder-id: "<id de /cooperativa-demo/salida>"
+# GOOGLE_APPLICATION_CREDENTIALS=/ruta/fuera/del/repo/service-account.json

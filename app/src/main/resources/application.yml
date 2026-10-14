@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cooperativa-agents
+  main:
+    banner-mode: off
+
+# Configuración por paso (se usa a partir de H3). Las API keys van SIEMPRE por variables de entorno.
+cooperativa:
+  drive:
+    input-folder-id: ${COOP_INPUT_FOLDER_ID:}
+    output-folder-id: ${COOP_OUTPUT_FOLDER_ID:}
